@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main ()
+{
+int i=20;
+int v=25;
+
+
+float ans =0.5*i*v;
+
+printf("Area of Circle is %f", ans);
+
+return 0;
+}
