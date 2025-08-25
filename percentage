@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+int main ()
+{
+   //total subject=5
+   
+    
+    int maths=90;
+    int gujarati=90;
+    int english=80;
+    int science=95;
+    int sanskrit=70;
+    
+    
+    int tsm = maths + gujarati + english + science + sanskrit;
+
+    
+    printf("\n total subject marks are %d", tsm);
+
+    
+    //percentage (per)=ts/500
+    
+    float per = tsm*100/500;
+    
+    printf("\n your percentage is %.2f%%", per);
+    
+    return 0;
+}
