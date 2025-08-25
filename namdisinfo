@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    printf("\n Name:viraj ");
+    printf("\n Address:somnath socity street no.3");
+    printf("\n Birth date: 6-8-1999 ");
+    printf("\n Age: 25");
+    
+    getch();
+}
