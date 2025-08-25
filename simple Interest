@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    //simple intrest 
+    //sI=PRN/100
+    //P=principle of amount
+    //R=rate of intrest
+    //n=number of years
+    
+    
+    int p=400;
+    int r=5;
+    int n=20;
+    
+    int si=p*r*n/100;
+    printf("\n your simple interest is %d",si);
+    int fa=si+p;
+    printf("\n your final amount is %d",fa);
+    return 0;
+    
+}
