@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int number=6;
+    int suqare=number*number;
+    int cube = number*number*number;
+    
+    printf("\n your suqare number is %d", suqare);
+    printf("\n your cube number is %d", cube);
+    
+    return 0;
+}
